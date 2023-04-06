@@ -9,3 +9,5 @@ Se a plataforma escolhida for a web, é importante considerar as seguintes carac
 4. **Testes em diferentes navegadores:** Como os usuários podem acessar o aplicativo de diferentes navegadores web, é importante testar o aplicativo em diferentes navegadores para garantir que ele funcione corretamente em todos eles. A equipe de desenvolvimento deve testar o aplicativo em diferentes versões do Chrome, Firefox, Safari, Edge e outros navegadores populares.
 
 5. **Hospedagem:** Depois que o aplicativo web estiver pronto, ele precisa ser hospedado em um servidor para que os usuários possam acessá-lo. É importante escolher um provedor de hospedagem confiável que ofereça segurança, desempenho e escalabilidade.
+
+https://developer.mozilla.org/pt-BR/docs/Web/Guide
