@@ -38,7 +38,7 @@ Definir o design e a interface de usuário do projeto é criar a aparência visu
 
 3. **Uso de ícones e ilustrações:** O uso de ícones e ilustrações pode ajudar a tornar o app mais visual e fácil de entender para os usuários.
 
-4. **Organização dos dados:*** As informações devem ser organizadas de forma clara e lógica, de modo que os usuários possam facilmente entender o que estão vendo e como usar as informações.
+4. **Organização dos dados:** As informações devem ser organizadas de forma clara e lógica, de modo que os usuários possam facilmente entender o que estão vendo e como usar as informações.
 
 5. **Personalização:** O app pode incluir recursos de personalização, permitindo que os usuários personalizem a interface de acordo com suas preferências e necessidades específicas.
 
