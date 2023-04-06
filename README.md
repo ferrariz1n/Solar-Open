@@ -44,7 +44,7 @@ Definir o design e a interface de usuário do projeto é criar a aparência visu
 
 6. **Acessibilidade:** A interface do app deve ser acessível a todos os usuários, independentemente de suas habilidades visuais ou físicas.
 
-	### [Figma](https://www.figma.com/file/KkfqRYg4qZbWhJrMlsQsxz/SolarOpenApp?node-id=0-1&t=7Af39fXuEug4Ndjx-0)
+	### [Figma](https://www.figma.com/file/KkfqRYg4qZbWhJrMlsQsxz/SolarOpenApp?node-id=0-1&t=7Af39fXuEug4Ndjx-0)<- 1º Protótipo
 
     Você pode ver uma ideia de design para o aplicativo Solar-Open abaixo:
 
