@@ -46,7 +46,7 @@ Definir o design e a interface de usuário do projeto é criar a aparência visu
 
 	### [Figma](https://www.figma.com/file/KkfqRYg4qZbWhJrMlsQsxz/SolarOpenApp?node-id=0-1&t=7Af39fXuEug4Ndjx-0)
 
-    Você pode ver uma ideia de design para o aplicativo SolarOpenApp abaixo:
+    Você pode ver uma ideia de design para o aplicativo Solar-Open abaixo:
 
     <img src="./readme_infos/ideia_1.jpg" alt="imagem" width="40%">
 
