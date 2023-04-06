@@ -9,3 +9,5 @@ Se a plataforma escolhida for o iOS, é importante considerar as seguintes carac
 4. **Integração com as APIs do iOS:** O iOS tem uma variedade de APIs que podem ser usadas para melhorar a funcionalidade do aplicativo, incluindo APIs para notificações push, geolocalização e autenticação de usuário. Integrar o aplicativo com as APIs do iOS pode melhorar sua funcionalidade e experiência do usuário.
 
 5. **Testes em diferentes dispositivos:** Como o iOS é executado em uma variedade de dispositivos, é importante testar o aplicativo em diferentes dispositivos para garantir que ele funcione corretamente em todos os cenários possíveis. A equipe de desenvolvimento deve usar emuladores e dispositivos reais para testar o aplicativo em diferentes versões do iOS e em diferentes tamanhos de tela.
+
+https://developer.apple.com/pt/support/
