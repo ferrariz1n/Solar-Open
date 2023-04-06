@@ -60,7 +60,7 @@ Definir o design e a interface de usuário do projeto é criar a aparência visu
 
 3. **Desenvolvimento do Back-end:** O back-end é responsável pelo armazenamento e processamento de dados do aplicativo. Os desenvolvedores usarão linguagens de programação e ferramentas específicas para criar um servidor que permita a coleta, armazenamento e acesso aos dados de energia solar. Isso pode incluir a criação de um banco de dados, a configuração de APIs e o desenvolvimento de algoritmos de processamento de dados.
 
-4. **Integração de hardware:*** Se o aplicativo de monitoramento de energia solar precisar integrar hardware específico, como sensores de energia solar, conversores DC-AC, inversores, entre outros, é importante que os desenvolvedores garantam que o aplicativo possa se comunicar com esses dispositivos.
+4. **Integração de hardware:** Se o aplicativo de monitoramento de energia solar precisar integrar hardware específico, como sensores de energia solar, conversores DC-AC, inversores, entre outros, é importante que os desenvolvedores garantam que o aplicativo possa se comunicar com esses dispositivos.
 
 5. **Testes:** Durante o desenvolvimento, é importante testar o aplicativo regularmente para garantir que ele funcione corretamente e atenda às especificações. Isso pode incluir testes de unidade, testes de integração e testes de aceitação.
 
