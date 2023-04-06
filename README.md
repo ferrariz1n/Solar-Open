@@ -22,11 +22,11 @@ Nesta fase, serão definidos os recursos que o aplicativo deve ter. Algumas opç
 
 Em quais plataformas o aplicativo será disponibilizado? É importante decidir se o aplicativo será disponibilizado em dispositivos móveis (iOS e Android) ou se também será acessível em um site.
 
-- [🤖 Android](./android.md)
-- [🍎 iOS](./ios.md)
-- [🌐 Web](./web.md)
-- [🖥️ Desktop](./desktop.md)
-- [⚔️ Cross-Plataform](./cross_plataform.md)
+- [🤖 Android](./readme_infos/android.md)
+- [🍎 iOS](./readme_infos/ios.md)
+- [🌐 Web](./readme_infos/web.md)
+- [🖥️ Desktop](./readme_infos/desktop.md)
+- [⚔️ Cross-Plataform](./readme_infos/cross_plataform.md)
 
 ## Fase 3: Definir o design e a interface de usuário
 
@@ -48,7 +48,7 @@ Definir o design e a interface de usuário do projeto é criar a aparência visu
 
     Você pode ver uma ideia de design para o aplicativo SolarOpenApp abaixo:
 
-    <img src="./ideia_1.jpg" alt="imagem" width="40%">
+    <img src="./readme_infos/ideia_1.jpg" alt="imagem" width="40%">
 
 ## Fase 4: Desenvolvimento
 
