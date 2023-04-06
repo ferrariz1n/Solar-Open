@@ -84,5 +84,13 @@ Depois de lançado, é importante promover o aplicativo e oferecer suporte aos u
 
 ## Conclusão
 
-![GIPHY](https://media.giphy.com/media/2rqEdFfkMzXmo/giphy.gif)
+ <img src="https://media.giphy.com/media/2rqEdFfkMzXmo/giphy.gif" alt="gif" width="50%" align="right">
 
+- [ ] Fase 1
+- [ ] Fase 2
+- [ ] Fase 3
+- [ ] Fase 4
+- [ ] Fase 5
+- [ ] Fase 6
+- [ ] Fase 7
+- [ ] Fase 8
