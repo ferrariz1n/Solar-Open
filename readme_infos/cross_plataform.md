@@ -10,4 +10,4 @@ Se a plataforma escolhida for cross-platform (múltiplas plataformas), é import
 
 5. **Atualizações:** É importante garantir que o aplicativo seja atualizado regularmente para corrigir quaisquer bugs e incluir novos recursos. Alguns frameworks de desenvolvimento cross-platform, como o React Native, permitem atualizações over-the-air (OTA) para que os usuários recebam atualizações automaticamente sem precisar baixar uma nova versão do aplicativo.
 
-https://learn.microsoft.com/pt-br/azure/active-directory/develop/index-desktop
+https://blog.back4app.com/pt/as-melhores-estruturas-de-desenvolvimento-de-plataforma-cruzada/
