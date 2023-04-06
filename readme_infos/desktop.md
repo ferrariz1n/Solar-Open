@@ -9,3 +9,5 @@ Se a plataforma escolhida for desktop, é importante considerar as seguintes car
 4. **Integração de Hardware:** O aplicativo de monitoramento de energia solar desktop pode exigir a integração de hardware específico, como sensores de energia solar, conversores DC-AC, inversores, entre outros. É importante garantir que o aplicativo seja capaz de se comunicar com esses dispositivos.
 
 5. **Testes em diferentes sistemas operacionais:** Como o aplicativo desktop é desenvolvido especificamente para um sistema operacional, é importante testar o aplicativo em diferentes versões do sistema operacional para garantir que ele funcione corretamente em todas as versões suportadas.
+
+https://learn.microsoft.com/pt-br/azure/active-directory/develop/index-desktop
