@@ -11,3 +11,4 @@ Se a plataforma escolhida for o Android, é importante considerar as seguintes c
 
 5. **Testes em diferentes dispositivos:** Como o Android é executado em uma ampla variedade de dispositivos, é importante testar o aplicativo em diferentes dispositivos para garantir que ele funcione corretamente em todos os cenários possíveis. A equipe de desenvolvimento deve usar emuladores e dispositivos reais para testar o aplicativo em diferentes versões do Android e em diferentes tamanhos de tela.
 
+https://developer.android.com/docs?hl=pt-br
