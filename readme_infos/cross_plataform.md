@@ -9,3 +9,5 @@ Se a plataforma escolhida for cross-platform (múltiplas plataformas), é import
 4. **Testes em diferentes plataformas:** Como o aplicativo cross-platform é desenvolvido para várias plataformas, é importante testar o aplicativo em diferentes dispositivos e sistemas operacionais para garantir que ele funcione corretamente em todas as plataformas suportadas.
 
 5. **Atualizações:** É importante garantir que o aplicativo seja atualizado regularmente para corrigir quaisquer bugs e incluir novos recursos. Alguns frameworks de desenvolvimento cross-platform, como o React Native, permitem atualizações over-the-air (OTA) para que os usuários recebam atualizações automaticamente sem precisar baixar uma nova versão do aplicativo.
+
+https://learn.microsoft.com/pt-br/azure/active-directory/develop/index-desktop
