@@ -19,36 +19,21 @@ Nesta fase, serão definidos os recursos que o aplicativo deve ter. Algumas opç
 6. **Monitoramento da bateria de armazenamento de energia:** Se o sistema solar incluir uma bateria de armazenamento de energia, o aplicativo pode mostrar o nível de carga da bateria em tempo real e alertar o usuário quando a carga estiver baixa. Isso permite que o usuário aproveite ao máximo a energia produzida pelo sistema solar e evite desperdícios.
 
 ## Fase 2: Definir as plataformas
+- 🌐 Web
+	- Flask: Flask é um framework leve e flexível para construir aplicativos da web em Python. Ele fornece um conjunto mínimo de ferramentas para criar um frontend, permitindo uma integração fácil com bibliotecas e frameworks de frontend, como React, Vue.js ou Angular.
 
-Em quais plataformas o aplicativo será disponibilizado? É importante decidir se o aplicativo será disponibilizado em dispositivos móveis (iOS e Android) ou se também será acessível em um site.
+	- Django: Django é um framework web de alto nível e completo para Python. Ele inclui muitos recursos embutidos, como autenticação de usuário, administração do site e suporte a banco de dados. O Django também tem suporte para criação de APIs, o que pode ser útil se você estiver construindo um aplicativo da web com um frontend separado.
 
-- [🤖 Android](./readme_infos/android.md)
-- [🍎 iOS](./readme_infos/ios.md)
-- [🌐 Web](./readme_infos/web.md)
-- [🖥️ Desktop](./readme_infos/desktop.md)
-- [⚔️ Cross-Plataform](./readme_infos/cross_plataform.md)
+	- Vue.js ou React: Essas são bibliotecas JavaScript populares para construção de interfaces de usuário interativas. Você pode criar o frontend do seu aplicativo da web usando Vue.js ou React e se comunicar com o backend em Python por meio de APIs. Ambas as bibliotecas têm uma curva de aprendizado, mas oferecem recursos poderosos para criar interfaces de usuário modernas e responsivas.
+
+	- Angular: O Angular é um framework de JavaScript mantido pelo Google. Ele fornece uma estrutura robusta para criar aplicativos da web complexos e escaláveis. Você pode criar uma interface de usuário no Angular e se comunicar com o backend Python por meio de APIs.
+
+	- Bootstrap: Bootstrap é uma biblioteca de código aberto que oferece uma coleção de componentes e estilos pré-projetados para ajudar na criação de interfaces de usuário responsivas e esteticamente agradáveis. Ele é altamente compatível com qualquer backend em Python e pode ser facilmente integrado aos frameworks mencionados acima.
+
 
 ## Fase 3: Definir o design e a interface de usuário
 
-Definir o design e a interface de usuário do projeto é criar a aparência visual e a experiência de uso do aplicativo para que ele seja fácil e intuitivo para os usuários.
-
-1. **Design simples e intuitivo:** O design do app deve ser simples e fácil de usar, com uma interface intuitiva que permita aos usuários acessar facilmente as informações de que precisam.
-
-2. **Escolha das cores:**  A escolha das cores deve ser cuidadosa, já que as cores influenciam muito na experiência do usuário. Uma paleta de cores relacionadas à natureza e à energia solar pode ser uma boa opção.
-
-3. **Uso de ícones e ilustrações:** O uso de ícones e ilustrações pode ajudar a tornar o app mais visual e fácil de entender para os usuários.
-
-4. **Organização dos dados:** As informações devem ser organizadas de forma clara e lógica, de modo que os usuários possam facilmente entender o que estão vendo e como usar as informações.
-
-5. **Personalização:** O app pode incluir recursos de personalização, permitindo que os usuários personalizem a interface de acordo com suas preferências e necessidades específicas.
-
-6. **Acessibilidade:** A interface do app deve ser acessível a todos os usuários, independentemente de suas habilidades visuais ou físicas.
-
-	### [Figma](https://www.figma.com/file/KkfqRYg4qZbWhJrMlsQsxz/SolarOpenApp?node-id=0-1&t=7Af39fXuEug4Ndjx-0)<- 1º Protótipo
-
-    Você pode ver uma ideia de design para o aplicativo Solar-Open abaixo:
-
-    <img src="./readme_infos/ideia_1.jpg" alt="imagem" width="40%">
+[FIGMA](https://www.figma.com/file/KkfqRYg4qZbWhJrMlsQsxz/SolarOpenApp?type=design&node-id=0%3A1&t=9kGWvlB0hZiTA41J-1)
 
 ## Fase 4: Desenvolvimento
 
@@ -66,22 +51,6 @@ Definir o design e a interface de usuário do projeto é criar a aparência visu
 
 6. **Refinamento:** Ao longo do processo de desenvolvimento, os desenvolvedores podem precisar fazer ajustes e refinamentos no aplicativo com base nos testes e no feedback do usuário. Isso pode incluir a adição de recursos adicionais, melhorias na interface do usuário e correção de bugs.
 
-## Fase 5: Testes
-
-Nessa fase, o app é testado para verificar se ele está funcionando conforme o esperado. Testes de usabilidade, testes de desempenho e testes de segurança são alguns dos tipos de testes que podem ser realizados.
-
-## Fase 6: Lançamento
-
-Nessa fase, o app é preparado para o lançamento e é disponibilizado nas lojas de aplicativos para download. É importante realizar uma campanha de marketing para divulgar o app e atrair usuários.
-
-## Fase 7: Manutenção
-
-Nessa fase, o app é atualizado regularmente para corrigir erros e bugs, adicionar novos recursos e garantir que o app esteja funcionando corretamente em novas versões de sistemas operacionais.
-
-## Fase 8: Marketing e suporte
-
-Depois de lançado, é importante promover o aplicativo e oferecer suporte aos usuários para garantir que eles possam utilizá-lo corretamente e aproveitar ao máximo suas funcionalidades.
-
 ## Conclusão
 
  <img src="https://media.giphy.com/media/2rqEdFfkMzXmo/giphy.gif" alt="gif" width="50%" align="right">
@@ -90,7 +59,3 @@ Depois de lançado, é importante promover o aplicativo e oferecer suporte aos u
 - [ ] Fase 2
 - [ ] Fase 3
 - [ ] Fase 4
-- [ ] Fase 5
-- [ ] Fase 6
-- [ ] Fase 7
-- [ ] Fase 8
