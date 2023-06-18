@@ -55,7 +55,7 @@ Nesta fase, serão definidos os recursos que o aplicativo deve ter. Algumas opç
 
  <img src="https://media.giphy.com/media/2rqEdFfkMzXmo/giphy.gif" alt="gif" width="50%" align="right">
 
-- [ x] Fase 1
+- [x] Fase 1
 - [ ] Fase 2
 - [ ] Fase 3
 - [ ] Fase 4
