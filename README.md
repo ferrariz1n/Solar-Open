@@ -19,7 +19,7 @@ Nesta fase, serão definidos os recursos que o aplicativo deve ter. Algumas opç
 6. **Monitoramento da bateria de armazenamento de energia:** Se o sistema solar incluir uma bateria de armazenamento de energia, o aplicativo pode mostrar o nível de carga da bateria em tempo real e alertar o usuário quando a carga estiver baixa. Isso permite que o usuário aproveite ao máximo a energia produzida pelo sistema solar e evite desperdícios.
 
 ## Fase 2: Definir as plataformas
-- 🌐 Web
+- 🌐 Web (Backend em python)
 	- Flask: Flask é um framework leve e flexível para construir aplicativos da web em Python. Ele fornece um conjunto mínimo de ferramentas para criar um frontend, permitindo uma integração fácil com bibliotecas e frameworks de frontend, como React, Vue.js ou Angular.
 
 	- Django: Django é um framework web de alto nível e completo para Python. Ele inclui muitos recursos embutidos, como autenticação de usuário, administração do site e suporte a banco de dados. O Django também tem suporte para criação de APIs, o que pode ser útil se você estiver construindo um aplicativo da web com um frontend separado.
