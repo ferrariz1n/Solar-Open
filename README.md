@@ -1,4 +1,5 @@
-## Solar-Open
+![Logo](logo.png)
+
 
 Um monitoramento de energia solar simples e eficiente no qual cada pessoa pode fazer seu monitoramento e controle de forma simplificada na palma da mão.
 
