@@ -4,8 +4,6 @@ Um monitoramento de energia solar simples e eficiente no qual cada pessoa possa 
 
 ## Fase 1: Definição de funcionalidades
 
-Nesta fase, serão definidos os recursos que o aplicativo deve ter. Algumas opções podem incluir:
-
 1. **Monitoramento da produção de energia solar:** O aplicativo pode se conectar ao sistema de painéis solares instalado na casa ou empresa do usuário e mostrar a quantidade de energia produzida em tempo real. Isso permite que o usuário monitore o desempenho do sistema solar e saiba quando a produção de energia está abaixo do esperado.
 
 2. **Acompanhamento do consumo de energia:** O aplicativo pode se conectar ao medidor de energia elétrica da casa ou empresa do usuário e mostrar a quantidade de energia consumida em tempo real. Isso permite que o usuário acompanhe o consumo de energia e saiba quanto está gastando em eletricidade.
