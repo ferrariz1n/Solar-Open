@@ -1,42 +1,41 @@
-# Solar-Open
+## Solar-Open
 
-Um monitoramento de energia solar simples e eficiente no qual cada pessoa possa fazer seu monitoramento e controle de forma simplificada na palma da mão.
+Um monitoramento de energia solar simples e eficiente no qual cada pessoa pode fazer seu monitoramento e controle de forma simplificada na palma da mão.
 
-## Fase 1: Definição de funcionalidades
+### Funcionalidades
 
-1. **Monitoramento da produção de energia solar:** O aplicativo pode se conectar ao sistema de painéis solares instalado na casa ou empresa do usuário e mostrar a quantidade de energia produzida em tempo real. Isso permite que o usuário monitore o desempenho do sistema solar e saiba quando a produção de energia está abaixo do esperado.
+1. **Monitoramento da produção de energia solar:** O aplicativo se conecta ao sistema de painéis solares instalado em minha casa ou empresa e mostra a quantidade de energia produzida em tempo real. Isso me permite monitorar o desempenho do sistema solar e saber quando a produção de energia está abaixo do esperado.
 
-2. **Acompanhamento do consumo de energia:** O aplicativo pode se conectar ao medidor de energia elétrica da casa ou empresa do usuário e mostrar a quantidade de energia consumida em tempo real. Isso permite que o usuário acompanhe o consumo de energia e saiba quanto está gastando em eletricidade.
+2. **Acompanhamento do consumo de energia:** O aplicativo se conecta ao medidor de energia elétrica da minha casa ou empresa e mostra a quantidade de energia consumida em tempo real. Isso me permite acompanhar o consumo de energia e saber o quanto estou gastando em eletricidade.
 
-3. **Exibição de dados históricos:** O aplicativo pode mostrar o histórico de produção e consumo de energia ao longo do tempo em gráficos e tabelas. Isso permite que o usuário compare o desempenho do sistema solar em diferentes momentos e saiba se houve mudanças no consumo de energia da casa ou empresa.
+3. **Exibição de dados históricos:** O aplicativo mostra o histórico de produção e consumo de energia ao longo do tempo em gráficos e tabelas. Isso me permite comparar o desempenho do meu sistema solar em diferentes momentos e saber se houve mudanças no consumo de energia.
 
-4. **Alertas de desempenho:** O aplicativo pode ser configurado para enviar alertas ao usuário em caso de quedas na produção de energia ou consumo excessivo de eletricidade. Isso permite que o usuário tome medidas para corrigir problemas ou fazer ajustes no sistema solar para melhorar o desempenho.
+4. **Alertas de desempenho:** O aplicativo pode ser configurado para enviar alertas quando houver quedas na produção de energia ou consumo excessivo de eletricidade. Isso me permite tomar medidas para corrigir problemas ou ajustar o sistema solar para melhorar o desempenho.
 
-5. **Integração com sistemas de gerenciamento de energia existentes:** O aplicativo pode se integrar com sistemas de gerenciamento de energia existentes na casa ou empresa do usuário, como termostatos inteligentes e sistemas de iluminação automatizados. Isso permite que o usuário tenha uma visão abrangente de como está usando a energia e faça ajustes para melhorar a eficiência energética.
+5. **Integração com sistemas de gerenciamento de energia existentes:** O aplicativo pode se integrar com outros sistemas de gerenciamento de energia em minha casa ou empresa, como termostatos inteligentes e sistemas de iluminação automatizados. Isso me dá uma visão abrangente de como estou usando a energia e permite fazer ajustes para melhorar a eficiência energética.
 
-6. **Monitoramento da bateria de armazenamento de energia:** Se o sistema solar incluir uma bateria de armazenamento de energia, o aplicativo pode mostrar o nível de carga da bateria em tempo real e alertar o usuário quando a carga estiver baixa. Isso permite que o usuário aproveite ao máximo a energia produzida pelo sistema solar e evite desperdícios.
+6. **Monitoramento da bateria de armazenamento de energia:** Se meu sistema solar incluir uma bateria de armazenamento de energia, o aplicativo mostra o nível de carga da bateria em tempo real e me alerta quando estiver baixo. Isso me permite aproveitar ao máximo a energia produzida pelo sistema solar e evitar desperdícios.
 
-## Fase 2: Definir as plataformas
-- 🌐 Web (Backend em python)
-	- Flask: Flask é um framework leve e flexível para construir aplicativos da web em Python. Ele fornece um conjunto mínimo de ferramentas para criar um frontend, permitindo uma integração fácil com bibliotecas e frameworks de frontend, como React, Vue.js ou Angular.
+### Tecnologias Utilizadas
 
-## Fase 3: Definir o design e a interface de usuário
+Para o desenvolvimento do Solar-Open, utilizamos as seguintes tecnologias:
+
+- **🌐 App Web**
+- **Backend:** Python
+- **Frontend:** Flask
+- **Banco de Dados:** PostgreSQL
+- **APIs:** Integração com APIs de sistemas de painéis solares e medidores de energia
+- **Autenticação e Autorização:** JSON Web Tokens (JWT)
+- **Gráficos e Visualizações:** Matplotlib
+- **Envio de Alertas:** Firebase Cloud Messaging (FCM)
+- **Integração com APIs de Terceiros:** Previsão do tempo para otimização da energia solar
+
+Essas tecnologias foram escolhidas por sua eficiência, facilidade de uso e suporte ativo pela comunidade de desenvolvedores.
+
+### Design e Interface de usuário
 
 [FIGMA](https://www.figma.com/file/KkfqRYg4qZbWhJrMlsQsxz/SolarOpenApp?type=design&node-id=0%3A1&t=9kGWvlB0hZiTA41J-1)
 
-## Fase 4: Desenvolvimento
-
-1. **Configuração do ambiente de desenvolvimento:** Antes de iniciar o desenvolvimento, é importante configurar o ambiente de desenvolvimento com as ferramentas e tecnologias necessárias. Isso pode incluir a instalação de um IDE (Integrated Development Environment), o download de bibliotecas de terceiros e a configuração de um servidor de desenvolvimento.
-
-2. **Desenvolvimento do Front-end:**  O front-end é responsável pelo design e pela interface do usuário do aplicativo. Os desenvolvedores usarão linguagens de programação e ferramentas específicas para criar uma interface gráfica de usuário (GUI) atraente e fácil de usar. Isso pode incluir a criação de telas, botões, gráficos, tabelas e outras ferramentas de interface do usuário.
-
-3. **Desenvolvimento do Back-end:** O back-end é responsável pelo armazenamento e processamento de dados do aplicativo. Os desenvolvedores usarão linguagens de programação e ferramentas específicas para criar um servidor que permita a coleta, armazenamento e acesso aos dados de energia solar. Isso pode incluir a criação de um banco de dados, a configuração de APIs e o desenvolvimento de algoritmos de processamento de dados.
-
-4. **Integração de hardware:** Se o aplicativo de monitoramento de energia solar precisar integrar hardware específico, como sensores de energia solar, conversores DC-AC, inversores, entre outros, é importante que os desenvolvedores garantam que o aplicativo possa se comunicar com esses dispositivos.
-
-5. **Testes:** Durante o desenvolvimento, é importante testar o aplicativo regularmente para garantir que ele funcione corretamente e atenda às especificações. Isso pode incluir testes de unidade, testes de integração e testes de aceitação.
-
-6. **Refinamento:** Ao longo do processo de desenvolvimento, os desenvolvedores podem precisar fazer ajustes e refinamentos no aplicativo com base nos testes e no feedback do usuário. Isso pode incluir a adição de recursos adicionais, melhorias na interface do usuário e correção de bugs.
 
 ## Conclusão
 
