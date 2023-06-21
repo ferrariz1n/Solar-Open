@@ -26,8 +26,6 @@ Um monitoramento de energia solar simples e eficiente no qual cada pessoa possa 
 
 ## Fase 4: Desenvolvimento
 
-É aqui que os desenvolvedores transformam o design e as especificações em um aplicativo real e funcional. As etapas específicas envolvidas na etapa de desenvolvimento podem variar dependendo da plataforma de desenvolvimento escolhida, mas em geral, as etapas incluem:
-
 1. **Configuração do ambiente de desenvolvimento:** Antes de iniciar o desenvolvimento, é importante configurar o ambiente de desenvolvimento com as ferramentas e tecnologias necessárias. Isso pode incluir a instalação de um IDE (Integrated Development Environment), o download de bibliotecas de terceiros e a configuração de um servidor de desenvolvimento.
 
 2. **Desenvolvimento do Front-end:**  O front-end é responsável pelo design e pela interface do usuário do aplicativo. Os desenvolvedores usarão linguagens de programação e ferramentas específicas para criar uma interface gráfica de usuário (GUI) atraente e fácil de usar. Isso pode incluir a criação de telas, botões, gráficos, tabelas e outras ferramentas de interface do usuário.
