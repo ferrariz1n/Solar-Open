@@ -50,6 +50,7 @@ Essas tecnologias foram selecionadas com base em sua eficiência, facilidade de 
 ### Design e Interface de usuário
 
 [FIGMA](https://www.figma.com/file/KkfqRYg4qZbWhJrMlsQsxz/SolarOpenApp?type=design&node-id=0%3A1&t=9kGWvlB0hZiTA41J-1)
+[LANDPAGE](https://github.com/ferrariz1n/Solar-Open/tree/main/landpage-solaropen)
 
 | Login                                      | Home                                      | Detalhes do painél                                      |
 | ------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
