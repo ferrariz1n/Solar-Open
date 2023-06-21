@@ -24,13 +24,6 @@ Nesta fase, serão definidos os recursos que o aplicativo deve ter. Algumas opç
 
 	- Django: Django é um framework web de alto nível e completo para Python. Ele inclui muitos recursos embutidos, como autenticação de usuário, administração do site e suporte a banco de dados. O Django também tem suporte para criação de APIs, o que pode ser útil se você estiver construindo um aplicativo da web com um frontend separado.
 
-	- Vue.js ou React: Essas são bibliotecas JavaScript populares para construção de interfaces de usuário interativas. Você pode criar o frontend do seu aplicativo da web usando Vue.js ou React e se comunicar com o backend em Python por meio de APIs. Ambas as bibliotecas têm uma curva de aprendizado, mas oferecem recursos poderosos para criar interfaces de usuário modernas e responsivas.
-
-	- Angular: O Angular é um framework de JavaScript mantido pelo Google. Ele fornece uma estrutura robusta para criar aplicativos da web complexos e escaláveis. Você pode criar uma interface de usuário no Angular e se comunicar com o backend Python por meio de APIs.
-
-	- Bootstrap: Bootstrap é uma biblioteca de código aberto que oferece uma coleção de componentes e estilos pré-projetados para ajudar na criação de interfaces de usuário responsivas e esteticamente agradáveis. Ele é altamente compatível com qualquer backend em Python e pode ser facilmente integrado aos frameworks mencionados acima.
-
-
 ## Fase 3: Definir o design e a interface de usuário
 
 [FIGMA](https://www.figma.com/file/KkfqRYg4qZbWhJrMlsQsxz/SolarOpenApp?type=design&node-id=0%3A1&t=9kGWvlB0hZiTA41J-1)
