@@ -22,8 +22,6 @@ Nesta fase, serão definidos os recursos que o aplicativo deve ter. Algumas opç
 - 🌐 Web (Backend em python)
 	- Flask: Flask é um framework leve e flexível para construir aplicativos da web em Python. Ele fornece um conjunto mínimo de ferramentas para criar um frontend, permitindo uma integração fácil com bibliotecas e frameworks de frontend, como React, Vue.js ou Angular.
 
-	- Django: Django é um framework web de alto nível e completo para Python. Ele inclui muitos recursos embutidos, como autenticação de usuário, administração do site e suporte a banco de dados. O Django também tem suporte para criação de APIs, o que pode ser útil se você estiver construindo um aplicativo da web com um frontend separado.
-
 ## Fase 3: Definir o design e a interface de usuário
 
 [FIGMA](https://www.figma.com/file/KkfqRYg4qZbWhJrMlsQsxz/SolarOpenApp?type=design&node-id=0%3A1&t=9kGWvlB0hZiTA41J-1)
