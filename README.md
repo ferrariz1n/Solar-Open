@@ -1,6 +1,5 @@
 ![Logo](logo.png)
 
-
 Um monitoramento de energia solar simples e eficiente no qual cada pessoa pode fazer seu monitoramento e controle de forma simplificada na palma da mão.
 
 ### Funcionalidades
@@ -21,28 +20,38 @@ Um monitoramento de energia solar simples e eficiente no qual cada pessoa pode f
 
 Para o desenvolvimento do Solar-Open, utilizamos as seguintes tecnologias:
 
-- **🌐 App Web**
-- **Backend:** Python
-- **Frontend:** Flask
-- **Banco de Dados:** PostgreSQL
-- **APIs:** Integração com APIs de sistemas de painéis solares e medidores de energia
-- **Autenticação e Autorização:** JSON Web Tokens (JWT)
-- **Gráficos e Visualizações:** Matplotlib
-- **Envio de Alertas:** Firebase Cloud Messaging (FCM)
-- **Integração com APIs de Terceiros:** Previsão do tempo para otimização da energia solar
+#### 🌐 App Web
+- **Backend: Python**
+    - Linguagem de programação poderosa e versátil, escolhida por sua ampla gama de bibliotecas e frameworks, facilitando o desenvolvimento do backend do aplicativo.
 
-Essas tecnologias foram escolhidas por sua eficiência, facilidade de uso e suporte ativo pela comunidade de desenvolvedores.
+- **Frontend: Flask**
+    - Framework leve e flexível para criação de aplicativos web em Python, escolhido por sua simplicidade e facilidade de uso, permitindo a construção da interface do usuário de forma eficiente.
+
+- **Banco de Dados: PostgreSQL**
+    - Sistema de gerenciamento de banco de dados relacional robusto e confiável, escolhido por sua escalabilidade, segurança e suporte a consultas complexas.
+
+- **APIs: Integração com APIs de sistemas de painéis solares e medidores de energia**
+    - Integração com APIs de terceiros para acessar os dados dos sistemas de painéis solares e medidores de energia, permitindo o monitoramento em tempo real da produção e consumo de energia.
+
+- **Autenticação e Autorização: JSON Web Tokens (JWT)**
+    - Mecanismo de autenticação baseado em tokens seguro e eficiente, escolhido para fornecer autenticação e autorização no aplicativo, garantindo que apenas usuários autorizados tenham acesso às funcionalidades.
+
+- **Gráficos e Visualizações: Matplotlib**
+    - Biblioteca de visualização de dados em Python, escolhida para criar gráficos e tabelas que exibem o histórico de produção e consumo de energia de forma clara e intuitiva.
+
+- **Envio de Alertas: Firebase Cloud Messaging (FCM)**
+    - Serviço de mensagens em tempo real fornecido pelo Firebase, escolhido para enviar alertas aos usuários em caso de quedas na produção de energia ou consumo excessivo, permitindo uma resposta rápida aos problemas.
+
+- **Integração com APIs de Terceiros: Previsão do tempo para otimização da energia solar**
+    - Integração com serviços de previsão do tempo por meio de APIs de terceiros, permitindo a otimização do uso da energia solar com base nas condições climáticas previstas.
+
+Essas tecnologias foram selecionadas com base em sua eficiência, facilidade de uso e suporte ativo pela comunidade de desenvolvedores, garantindo um desenvolvimento sólido e confiável para o Solar-Open.
 
 ### Design e Interface de usuário
 
 [FIGMA](https://www.figma.com/file/KkfqRYg4qZbWhJrMlsQsxz/SolarOpenApp?type=design&node-id=0%3A1&t=9kGWvlB0hZiTA41J-1)
 
+| Foto 1                                      | Foto 2                                      | Foto 3                                      |
+| ------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
+| ![Foto 1](foto1.png) | ![Foto 2](foto2.png) | ![Foto 3](foto3.png) |
 
-## Conclusão
-
- <img src="https://media.giphy.com/media/2rqEdFfkMzXmo/giphy.gif" alt="gif" width="50%" align="right">
-
-- [x] Fase 1
-- [ ] Fase 2
-- [ ] Fase 3
-- [ ] Fase 4
