@@ -51,7 +51,7 @@ Essas tecnologias foram selecionadas com base em sua eficiência, facilidade de 
 
 [FIGMA](https://www.figma.com/file/KkfqRYg4qZbWhJrMlsQsxz/SolarOpenApp?type=design&node-id=0%3A1&t=9kGWvlB0hZiTA41J-1)
 
-| Foto 1                                      | Foto 2                                      | Foto 3                                      |
+| Login                                      | Home                                      | Detalhes do painél                                      |
 | ------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
 | ![Foto 1](foto1.png) | ![Foto 2](foto2.png) | ![Foto 3](foto3.png) |
 
