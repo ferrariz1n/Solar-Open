@@ -59,7 +59,21 @@
     <div class="container">
       <h2>Contato</h2>
       <p>Entre em contato conosco para obter mais informações sobre nosso serviço de monitoramento de energia solar.</p>
-      <p>Email: exemplo@e-mail.com</p>
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" maxlength="500" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
     </div>
   </section>
 
@@ -69,12 +83,7 @@
       <p>Se precisar de ajuda com nosso aplicativo de monitoramento de energia solar, consulte nossa seção de perguntas frequentes (FAQ) ou entre em contato conosco.</p>
     </div>
   </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2023 Monitoramento de Energia Solar</p>
-    </div>
-  </footer>
+ 
 </body>
 
 </html>
