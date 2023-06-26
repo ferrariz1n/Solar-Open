@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-.header-container {
+.header-container, .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,7 +52,7 @@ body {
 }
 
 section {
-  padding: 50px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -134,4 +134,8 @@ button {
 
 button:hover {
   background-color: #555;
+}
+
+.h2-team{
+  margin-top: 80px;
 }

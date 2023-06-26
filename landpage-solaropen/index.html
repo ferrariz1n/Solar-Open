@@ -12,9 +12,9 @@
       <img src="logo.png" alt="Logo do projeto" class="logo">
       <nav class="menu">
         <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#contato">Contato</a></li>
-          <li><a href="#ajuda">Ajuda</a></li>
+          <li><a href="#sobre" class="github-button">Sobre</a></li>
+          <li><a href="#contato" class="github-button">Contato</a></li>
+          <li><a href="#ajuda" class="github-button">Ajuda</a></li>
           <li><a href="https://github.com/ferrariz1n/Solar-Open" class="github-button">GitHub</a></li>
         </ul>
       </nav>
@@ -26,6 +26,7 @@
       <h2>Sobre</h2>
       <p>O aplicativo de monitoramento de energia solar se conecta ao sistema de painéis solares instalado em sua casa ou empresa e mostra a quantidade de energia produzida em tempo real. Ele também permite acompanhar o consumo de energia elétrica, exibir dados históricos, configurar alertas de desempenho e se integrar com outros sistemas de gerenciamento de energia existentes.</p>
 
+      <h2 class="">Equipe</h2>
       <div class="team">
         <figure>
           <img src="./membro1.png" alt="Foto do membro 1">
@@ -59,21 +60,22 @@
     <div class="container">
       <h2>Contato</h2>
       <p>Entre em contato conosco para obter mais informações sobre nosso serviço de monitoramento de energia solar.</p>
-      <form>
+      <form action="https://formspree.io/f/xeqbjaww" method="post">
         <div class="form-group">
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" required>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Bob Tester" required>
         </div>
         <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Tester@e-mail.com" required>
         </div>
         <div class="form-group">
-          <label for="mensagem">Mensagem:</label>
-          <textarea id="mensagem" name="mensagem" rows="5" maxlength="500" required></textarea>
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" maxlength="500" placeholder="(limite de 500 caracteres)" required></textarea>
         </div>
         <button type="submit">Enviar</button>
       </form>
+      
     </div>
   </section>
 
@@ -83,6 +85,10 @@
       <p>Se precisar de ajuda com nosso aplicativo de monitoramento de energia solar, consulte nossa seção de perguntas frequentes (FAQ) ou entre em contato conosco.</p>
     </div>
   </section>
+
+  <div class="footer">
+
+  </div>
  
 </body>
 
