@@ -1,54 +1,72 @@
 ![Logo](logo.png)
 
-Um monitoramento de energia solar simples e eficiente no qual cada pessoa pode fazer seu monitoramento e controle de forma simplificada na palma da mão.
+# Solar-Open: Monitoramento de Energia Solar
 
-### Funcionalidades
+O Solar-Open é um aplicativo web simples e eficiente que permite o monitoramento e controle da produção de energia solar de forma intuitiva e acessível tanto para usuários individuais quanto para empresas.
 
-1. **Monitoramento da produção de energia solar:** O aplicativo se conecta ao sistema de painéis solares instalado em minha casa ou empresa e mostra a quantidade de energia produzida em tempo real. Isso me permite monitorar o desempenho do sistema solar e saber quando a produção de energia está abaixo do esperado.
+## Funcionalidades
+**1. Cadastro de Usuário:**
+- Permite que tanto usuários individuais quanto empresas se registrem no sistema.
+- Os usuários devem fornecer informações como nome, endereço de e-mail e senha.
+- Realiza validação do endereço de e-mail e garanta senhas seguras para todos os tipos de usuários.
 
-2. **Acompanhamento do consumo de energia:** O aplicativo se conecta ao medidor de energia elétrica da minha casa ou empresa e mostra a quantidade de energia consumida em tempo real. Isso me permite acompanhar o consumo de energia e saber o quanto estou gastando em eletricidade.
+**2. Login de Usuário:**
+- Usuários individuais e empresas registrados podem fazer login no sistema usando seu endereço de e-mail e senha.
 
-3. **Exibição de dados históricos:** O aplicativo mostra o histórico de produção e consumo de energia ao longo do tempo em gráficos e tabelas. Isso me permite comparar o desempenho do meu sistema solar em diferentes momentos e saber se houve mudanças no consumo de energia.
+**3. Monitoramento de Painéis:**
+- Desenvolve uma seção no aplicativo para monitorar a geração diária de energia solar e o saldo acumulado.
+- Permite que empresas criem perfis de diferentes locais ou instalações para monitorar a produção de energia em várias instalações.
 
-4. **Alertas de desempenho:** O aplicativo pode ser configurado para enviar alertas quando houver quedas na produção de energia ou consumo excessivo de eletricidade. Isso me permite tomar medidas para corrigir problemas ou ajustar o sistema solar para melhorar o desempenho.
+**4. Gerenciamento de Painéis:**
+- Implementa a funcionalidade de adicionar painéis solares ao sistema.
+- Tanto usuários individuais quanto empresas podem registrar novos painéis.
+- Disponibiliza uma lista de todos os painéis que cada usuário possui, com opções de filtro por nome e capacidade de geração.
 
-5. **Integração com sistemas de gerenciamento de energia existentes:** O aplicativo pode se integrar com outros sistemas de gerenciamento de energia em minha casa ou empresa, como termostatos inteligentes e sistemas de iluminação automatizados. Isso me dá uma visão abrangente de como estou usando a energia e permite fazer ajustes para melhorar a eficiência energética.
+**5. Edição e Exclusão de Painéis:**
+- Permite que os usuários editem os detalhes de painéis existentes ou os excluam conforme necessário.
 
-6. **Monitoramento da bateria de armazenamento de energia:** Se meu sistema solar incluir uma bateria de armazenamento de energia, o aplicativo mostra o nível de carga da bateria em tempo real e me alerta quando estiver baixo. Isso me permite aproveitar ao máximo a energia produzida pelo sistema solar e evitar desperdícios.
+**6. Notificações e Alertas:**
+- Configura o sistema para enviar notificações por e-mail ou notificações push em caso de queda na geração de energia ou interrupção total da geração.
+- Para empresas, possibilita a configuração de alertas específicos para cada local ou instalação.
 
-### Tecnologias Utilizadas
+**7. Comercialização de Créditos:**
+- Cria uma loja virtual dentro do aplicativo onde os usuários, incluindo empresas, podem anunciar, vender e comprar créditos de energia gerados.
+- Implementa um sistema de pagamento seguro para transações comerciais.
 
-Para o desenvolvimento do Solar-Open, utilizamos as seguintes tecnologias:
+## Requisitos Não Funcionais
+**Segurança:**
+- Os dados dos usuários são armazenados de forma segura, com criptografia para proteção.
+- Medidas de autenticação rigorosas são implementadas para proteger contra acessos não autorizados.
 
-#### 🌐 App Web
+**Desempenho:**
+- O aplicativo é responsivo e escalável, capaz de lidar com um grande número de usuários e locais simultaneamente.
+- Consultas de banco de dados são otimizadas para garantir um desempenho rápido.
+
+**Usabilidade:**
+- A interface de usuário é intuitiva e fácil de usar em dispositivos desktop.
+- O aplicativo é compatível com navegadores populares.
+
+**Escalabilidade:**
+- O projeto é desenvolvido com escalabilidade em mente, permitindo expansão conforme a demanda cresce.
+
+**Backup e Recuperação:**
+- Um plano de backup regular é mantido para os dados do sistema, com capacidade de restauração em caso de falhas.
+
+**Suporte a Múltiplos Idiomas:**
+- O aplicativo é localizável para suportar diferentes idiomas e regiões, atendendo a uma base de usuários global.
+
+## Tecnologias Utilizadas
 - **Backend: Python**
-    - Linguagem de programação poderosa e versátil, escolhida por sua ampla gama de bibliotecas e frameworks, facilitando o desenvolvimento do backend do aplicativo.
-
 - **Frontend: Flask**
-    - Framework leve e flexível para criação de aplicativos web em Python, escolhido por sua simplicidade e facilidade de uso, permitindo a construção da interface do usuário de forma eficiente.
-
 - **Banco de Dados: PostgreSQL**
-    - Sistema de gerenciamento de banco de dados relacional robusto e confiável, escolhido por sua escalabilidade, segurança e suporte a consultas complexas.
-
-- **APIs: Integração com APIs de sistemas de painéis solares e medidores de energia**
-    - Integração com APIs de terceiros para acessar os dados dos sistemas de painéis solares e medidores de energia, permitindo o monitoramento em tempo real da produção e consumo de energia.
-
 - **Autenticação e Autorização: JSON Web Tokens (JWT)**
-    - Mecanismo de autenticação baseado em tokens seguro e eficiente, escolhido para fornecer autenticação e autorização no aplicativo, garantindo que apenas usuários autorizados tenham acesso às funcionalidades.
-
 - **Gráficos e Visualizações: Matplotlib**
-    - Biblioteca de visualização de dados em Python, escolhida para criar gráficos e tabelas que exibem o histórico de produção e consumo de energia de forma clara e intuitiva.
-
-- **Envio de Alertas: Firebase Cloud Messaging (FCM)**
-    - Serviço de mensagens em tempo real fornecido pelo Firebase, escolhido para enviar alertas aos usuários em caso de quedas na produção de energia ou consumo excessivo, permitindo uma resposta rápida aos problemas.
-
+- **Envio de Alertas: Email ou SMS via bibliotecas Python**
 - **Integração com APIs de Terceiros: Previsão do tempo para otimização da energia solar**
-    - Integração com serviços de previsão do tempo por meio de APIs de terceiros, permitindo a otimização do uso da energia solar com base nas condições climáticas previstas.
+- **Controle de Versão: Git e GitHub**
+- **Containerização: Docker (opcional)**
 
-Essas tecnologias foram selecionadas com base em sua eficiência, facilidade de uso e suporte ativo pela comunidade de desenvolvedores, garantindo um desenvolvimento sólido e confiável para o Solar-Open.
-
-### Design e Interface de usuário
-
+## Design e Interface de usuário
 - [LANDPAGE](https://github.com/ferrariz1n/Solar-Open/tree/main/landpage-solaropen)
 - [FIGMA](https://www.figma.com/file/KkfqRYg4qZbWhJrMlsQsxz/SolarOpenApp?type=design&node-id=0%3A1&t=9kGWvlB0hZiTA41J-1)
 
@@ -56,3 +74,10 @@ Essas tecnologias foram selecionadas com base em sua eficiência, facilidade de 
 | ------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
 | ![Foto 1](foto1.png) | ![Foto 2](foto2.png) | ![Foto 3](foto3.png) |
 
+## Equipe
+- Uryel Navarro
+- Igor Ferrari
+- Isabela Batalha
+- Leonardo Preuss
+- Daniel Maciel
+- Cassio Domingues
