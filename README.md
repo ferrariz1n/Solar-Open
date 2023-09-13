@@ -64,7 +64,7 @@ O Solar-Open é um aplicativo web simples e eficiente que permite o monitorament
 - **Envio de Alertas: Email ou SMS via bibliotecas Python**
 - **Integração com APIs de Terceiros: Previsão do tempo para otimização da energia solar**
 - **Controle de Versão: Git e GitHub**
-- **Containerização: Docker (opcional)**
+- **Containerização: Docker ( talvez? )**
 
 ## Design e Interface de usuário
 - [LANDPAGE](https://github.com/ferrariz1n/Solar-Open/tree/main/landpage-solaropen)
