@@ -57,8 +57,8 @@ O Solar-Open é um aplicativo web simples e eficiente que permite o monitorament
 
 ## Tecnologias Utilizadas
 - **Backend: Python**
-- **Frontend: Flask**
-- **Banco de Dados: PostgreSQL**
+- **Frontend: Django**
+- **Banco de Dados: MySQL**
 - **Autenticação e Autorização: JSON Web Tokens (JWT)**
 - **Gráficos e Visualizações: Matplotlib**
 - **Envio de Alertas: Email ou SMS via bibliotecas Python**
