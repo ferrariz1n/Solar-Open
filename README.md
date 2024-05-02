@@ -80,4 +80,3 @@ O Solar-Open é um aplicativo web simples e eficiente que permite o monitorament
 - Isabela Batalha
 - Leonardo Preuss
 - Daniel Maciel
-- Cassio Domingues
