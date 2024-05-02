@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitoramento de Energia Solar</title>
+  <link rel="stylesheet" href="styles.css">
+<body>
+  <header>
+    <div class="header-container">
+      <img src="{% static 'img/logo.png' %}" alt="logo" class='logo'>
+
+      <form class="login-form" action="{'login'}" method="post">
+        <input type="text" name="username" placeholder="Usuário" required>
+        <input type="password" name="password" placeholder="Senha" required>
+        <button type="submit">Login</button>
+      </form>
+
+      <nav class='menu'>
+        <ul>
+          <li><a href="#sobre" class="github-button">Sobre</a></li>
+          <li><a href="#contato" class="github-button">Contato</a></li>
+          <li><a href="#ajuda" class="github-button">Ajuda</a></li>
+          <li><a href="https://github.com/ferrariz1n/Solar-Open" class="github-button">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre</h2>
+      <p>O aplicativo de monitoramento de energia solar se conecta ao sistema de painéis solares instalado em sua casa ou empresa e mostra a quantidade de energia produzida em tempo real. Ele também permite acompanhar o consumo de energia elétrica, exibir dados históricos, configurar alertas de desempenho e se integrar com outros sistemas de gerenciamento de energia existentes.</p>
+
+      <h2 class="">Equipe</h2>
+      <div class="team">
+        <figure>
+          <a href="https://www.linkedin.com/in/uryel-haddad/" target="_blank">
+              <img src="{% static 'img/membro1.png' %}" alt="Foto do membro 1">
+          </a>
+          <figcaption>Uryel Haddad</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.linkedin.com/in/igormachadoferrari/" target="_blank">
+              <img src="{% static 'img/membro2.png' %}" alt="Foto do membro 2">
+          </a>
+          <figcaption>Igor Ferrari</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.linkedin.com/in/leonardo-ruch-preuss-28b23823b/" target="_blank">
+              <img src="{% static 'img/membro3.png' %}" alt="Foto do membro 3">
+          </a>
+          <figcaption>Leonardo Preuss</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.linkedin.com/in/daniel-cerqueira-campos-maciel-47715b222/" target="_blank">
+              <img src="{% static 'img/membro4.png' %}" alt="Foto do membro 4">
+          </a>
+          <figcaption>Daniel Maciel</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.linkedin.com/in/isabela-batalha-3b6165245/" target="_blank">
+              <img src="{% static 'img/membro6.png' %}" alt="Foto do membro 6">
+          </a>
+          <figcaption>Isabela Batalha</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Entre em contato conosco para obter mais informações sobre nosso serviço de monitoramento de energia solar.</p>
+      <form action="https://formspree.io/f/xeqbjaww" method="post">
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Bob Tester" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Tester@e-mail.com" required>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" maxlength="500" placeholder="(limite de 500 caracteres)" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+
+    </div>
+  </section>
+
+  <section id="ajuda">
+    <div class="container">
+      <h2>Ajuda</h2>
+      <p>Se precisar de ajuda com nosso aplicativo de monitoramento de energia solar, consulte nossa seção de perguntas frequentes (FAQ) ou entre em contato conosco.</p>
+    </div>
+  </section>
+
+  <div class="footer">
+
+  </div>
+
+</body>
+
+</html>
