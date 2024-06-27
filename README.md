@@ -56,13 +56,13 @@ O Solar-Open é um aplicativo web simples e eficiente que permite o monitorament
 - O aplicativo é localizável para suportar diferentes idiomas e regiões, atendendo a uma base de usuários global.
 
 ## Tecnologias Utilizadas
-- **Backend: Python**
-- **Frontend: Django**
-- **Banco de Dados: MySQL**
-- **Autenticação e Autorização: JSON Web Tokens (JWT)**
-- **Gráficos e Visualizações: Matplotlib**
-- **Envio de Alertas: Email ou SMS via bibliotecas Python**
-- **Integração com APIs de Terceiros: Previsão do tempo para otimização da energia solar**
+- **Backend: **
+- **Frontend: **
+- **Banco de Dados: **
+- **Autenticação e Autorização: **
+- **Gráficos e Visualizações: b**
+- **Envio de Alertas: **
+- **Integração com APIs de Terceiros**
 - **Controle de Versão: Git e GitHub**
 - **Containerização: Docker ( talvez? )**
 
@@ -80,3 +80,6 @@ O Solar-Open é um aplicativo web simples e eficiente que permite o monitorament
 - Isabela Batalha
 - Leonardo Preuss
 - Daniel Maciel
+- Gabriel Vettorazzi
+- Vinicius Besen
+- Joao
