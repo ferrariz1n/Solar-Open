@@ -29,10 +29,6 @@ O Solar-Open é um aplicativo web simples e eficiente que permite o monitorament
 - Configura o sistema para enviar notificações por e-mail ou notificações push em caso de queda na geração de energia ou interrupção total da geração.
 - Para empresas, possibilita a configuração de alertas específicos para cada local ou instalação.
 
-**7. Comercialização de Créditos:**
-- Cria uma loja virtual dentro do aplicativo onde os usuários, incluindo empresas, podem anunciar, vender e comprar créditos de energia gerados.
-- Implementa um sistema de pagamento seguro para transações comerciais.
-
 ## Requisitos Não Funcionais
 **Segurança:**
 - Os dados dos usuários são armazenados de forma segura, com criptografia para proteção.
@@ -56,15 +52,10 @@ O Solar-Open é um aplicativo web simples e eficiente que permite o monitorament
 - O aplicativo é localizável para suportar diferentes idiomas e regiões, atendendo a uma base de usuários global.
 
 ## Tecnologias Utilizadas
-- **Backend: **
-- **Frontend: **
-- **Banco de Dados: **
-- **Autenticação e Autorização: **
-- **Gráficos e Visualizações: b**
-- **Envio de Alertas: **
-- **Integração com APIs de Terceiros**
+- **Backend: Node**
+- **Frontend: NextJS e TyprScript**
+- **Banco de Dados: Atlas(MongoDB)**
 - **Controle de Versão: Git e GitHub**
-- **Containerização: Docker ( talvez? )**
 
 ## Design e Interface de usuário
 - [LANDPAGE](https://github.com/ferrariz1n/Solar-Open/tree/main/landpage-solaropen)
@@ -82,4 +73,4 @@ O Solar-Open é um aplicativo web simples e eficiente que permite o monitorament
 - Daniel Maciel
 - Gabriel Vettorazzi
 - Vinicius Besen
-- Joao
+- Joao Ramos
